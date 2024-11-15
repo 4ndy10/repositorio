@@ -1,0 +1,49 @@
+    1  pwd
+    2  cd Desktop
+    3  pwd
+    4  ls
+    5  ls -l
+    6  mkdir repositorio
+    7  cd repositorio
+    8  code .
+    9  code .
+   10  ls
+   11  git init
+   12  echo "Hola repositorio" > a.txt
+   13  cat a.txt
+   14  git status
+   15  git add a.txt
+   16  git status
+   17  git commit -m "First commit"
+   18  git config --global user.email "andy.soto@uabc.edu.mx"
+   19  git config --global user.name "Andy Soto"
+   20  git commit -m "First commit"
+   21  git log
+   22  git status
+   23  git restore a.txt
+   24  git status
+   25  git add a.txt 
+   26  git status
+   27  git commit -m "Second commit"
+   28  git log --oneline
+   29  git status
+   30  git add a.txt
+   31  git commit -m "Third commit"
+   32  git status
+   33  git log --oneline
+   34  git status
+   35  git add a.txt
+   36  git commit -m "Fourth commit"
+   37  git log --oneline
+   38  git checkout 49d07ac
+   39  git status
+   40  git checkout master
+   41  git status
+   42  git log --oneline
+   43  git log --oneline
+   44  echo "git status, git add <>, git log --oneline, git checkout <name of commit>" > a.txt
+   45  git branch -M main
+   46  git remote add origin https://github.com/4ndy10/repositorio.git
+   47  git push -u origin main
+   48  history
+   49  history > comandos.txt

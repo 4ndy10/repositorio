@@ -1,10 +1,1 @@
-Hola repositorio
-Este es el segundo commit
-a
-sda
-sdaas
-da
-
-tercer commit
-
-cuarto commit 
+git status, git add <>, git log --oneline, git checkout <name of commit>
